@@ -3,9 +3,9 @@ package com.example.myrestaurantss;
 import org.junit.Rule;
 import org.junit.Test;
 
-import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
-import androidx.test.runner.AndroidJUnit4;
+
+import com.example.myrestaurantss.ui.MainActivity;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.typeText;
